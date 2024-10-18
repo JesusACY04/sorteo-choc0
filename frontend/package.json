@@ -1,8 +1,7 @@
 {
-    "name": "frontend",
-    "version": "1.0.0",
-    "scripts": {
-        "build": "your-build-command-here",
-        "start": "your-frontend-start-command-here"
-    }
+  "name": "frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nginx"
+  }
 }
