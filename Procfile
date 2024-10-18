@@ -1,1 +1,2 @@
-web: nginx -g 'daemon off;' -c /app/nginx.conf & node backend/server.js
+web: node backend/server.js
+nginx: nginx -c /etc/nginx/nginx.conf
